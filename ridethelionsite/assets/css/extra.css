@@ -1,0 +1,109 @@
+@font-face
+{
+	font-family: hsfont;
+	src: url("../font/HighScoresFont.tff");
+}
+
+@import url(http://fonts.googleapis.com/css?family=Sniglet);
+
+
+body{
+	background-color:#182547;
+	background-image:url('../img/rtl_bg_repeat.png');
+	background-repeat:  repeat-y;
+	background-position:top center;
+
+	font-family: 'Sniglet', futura;
+	color:#E9E6E1;
+}
+
+h1{
+	font-family: hsfont;
+	letter-spacing:3px;
+	line-height:35px;
+	font-size:45px;
+	color:#000;
+	text-align:center;
+}
+
+.header{
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align:center;
+}
+
+.highscore{
+	background-color:#E9E6E1;
+	border:1px solid #eee;
+	border-radius:10px;
+	height: 420px;
+	padding:27px;
+	margin:0 0 20px;
+	color:#000;
+
+	font-family: hsfont;
+	letter-spacing:3px;
+	line-height:35px;
+	font-size:30px;
+	tab-size: 2;
+	text-align: center;
+	overflow:auto;
+}
+
+.highscore ol{
+	list-style:none;
+}
+
+.info{
+	text-align:center;
+	color:#E9E6E1;
+}
+
+#slides {
+      display: none
+    }
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url('../img/pagination.png');
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
